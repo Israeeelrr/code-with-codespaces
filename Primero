@@ -1,0 +1,34 @@
+graph TD
+    A[Fisiología: Estudio del funcionamiento normal de los organismos vivos] --> B(Biología);
+    A --> C(Química);
+    A --> D(Física);
+    A --> E(Matemáticas y Estadística);
+    A --> F(Anatomía);
+    A --> G(Bioquímica);
+    A --> H(Genética);
+    A --> I(Farmacología);
+    A --> J(Patología);  
+    A --> K(Ecología);
+    A --> L(Psicología);
+    A --> M(Ingeniería Biomédica);
+    A --> N(Ciencias del Deporte);
+    A --> O(Nutrición);
+    A --> P(Evolución);
+
+    B -- Contexto general de la vida y diversidad biológica --> A;
+    C -- Procesos químicos subyacentes a las funciones vitales --> A;
+    D -- Principios físicos que rigen los procesos biológicos (mecánica, fluidos, electricidad) --> A;
+    E -- Modelado, análisis cuantitativo y diseño experimental --> A;
+    F -- Estructura de los organismos que sustenta la función --> A;
+    G -- Moléculas biológicas y sus interacciones en los sistemas vivos --> A;
+    H -- Herencia y variación de las características funcionales --> A;
+    I -- Efectos de los fármacos en la función fisiológica --> A;
+    J -- Alteraciones de la función fisiológica en la enfermedad --> A;
+    K -- Influencia del entorno en la función fisiológica y adaptaciones --> A;
+    L -- Bases biológicas del comportamiento y procesos mentales --> A;
+    M -- Desarrollo de herramientas y tecnologías para estudiar y modificar la función --> A;
+    N -- Efectos del ejercicio y la actividad física en el organismo --> A;
+    O -- Impacto de los nutrientes en la función y el metabolismo --> A;
+    P -- Cambios en la función fisiológica a lo largo del tiempo y adaptación --> A;
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
